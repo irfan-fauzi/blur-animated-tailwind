@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blur-circle {
+	@apply absolute mix-blend-multiply blur-xl h-72 w-72 rounded-full;
+}
+.bg-hero {
+	background: radial-gradient(115.3% 572.08% at 0% 1.91%, rgba(54, 10, 109, 0.81) 2.69%, rgba(67, 7, 143, 0.782049) 15.7%, rgba(81, 7, 174, 0.732755) 27.61%, rgba(84, 10, 179, 0.704401) 31.4%, rgba(110, 30, 213, 0.488499) 52.31%, rgba(110, 30, 213, 0.428527) 68.72%, rgba(178, 16, 145, 0.611998) 85.59%, rgba(233, 4, 90, 0.762467) 95.57%, rgba(248, 1, 75, 0.8019) 100%)
+}
+.bg-screen {
+	background: #360A6D;
+}
