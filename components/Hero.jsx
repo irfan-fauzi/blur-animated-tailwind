@@ -6,9 +6,9 @@ const Hero = () => {
   return (
     <div className='max-w-[1200px] mx-auto rounded-3xl px-12 bg-hero font-inter font-thin '>
 			<div className='h-10'></div>
-			<div className='flex'>
+			<div className='flex items-center'>
 				<div>
-					<h1 className='text-gray-100 text-6xl font-light w-9/12 leading-[1.1]'>Tempat No1 Cari dan Simpan Resep Masakan</h1>
+					<h1 className='text-gray-100 text-5xl font-light w-9/12 leading-[1.1]'>Tempat No1 Cari dan Simpan Resep Masakan</h1>
 					<div className='h-5'></div>
 					<h2 className='text-gray-300 w-9/12'>Apa isi kulkasmu? Kombinasikan beberapa bahan untuk mendapatkan ide baru. Hanya di aplikasi Cookpad. Tempe. Semua. mendol. sambal ulek. semur tahu.</h2>
 					<div className='h-5'></div>
