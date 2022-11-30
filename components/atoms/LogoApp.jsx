@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const LogoApp = () => {
-  return (
-    <div>LogoApp</div>
-  )
-}
+  return <img src="/img/main-logo.png" />;
+};
 
-export default LogoApp
+export default LogoApp;
