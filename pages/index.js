@@ -1,4 +1,4 @@
-import { Gap } from "../components"
+import { Gap, SearchBar } from "../components"
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, nesciunt?</p>
       <Gap height={10} />
       <p>Lorem ipsum dolor sit amet.</p>
+      <SearchBar />
     </div>
   )
 }

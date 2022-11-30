@@ -1,11 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { InputText } from '../atoms'
+import { FiSearch } from 'react-icons/fi'
 
 const SearchBar = () => {
+  const [data, setData] = useState("")
   return (
     <div>
-      <InputText />
-      <button className='border'>c</button>
+      <input type="text" />
+      
+      <p>{data}</p>
     </div>
   )
 }
