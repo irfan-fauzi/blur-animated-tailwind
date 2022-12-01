@@ -1,18 +1,15 @@
-import { Gap, LogoApp, NotificationNumber } from "../components";
+import { Gap, LogoApp, NotificationNumber, Notifications } from "../components";
 import { BsBell } from "react-icons/bs";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Gap height="h-5" />
-      <header className="flex items-center justify-between ">
+      <header className="flex items-center justify-between max-w-screen-sm m-auto px-2">
         <LogoApp />
-        <div className="border flex items-center gap-[3rem]">
-          <div className="flex border relative">
-            <BsBell size={35} color="#F8B405" />
-            <NotificationNumber />
-          </div>
+        <div className="flex items-center gap-[2rem]">
+          <Notifications />
           <div>
             <img
               src="/img/user.jpg"
