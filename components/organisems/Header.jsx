@@ -1,21 +1,26 @@
-import React from 'react'
-import { LogoApp, Notifications } from '../../components'
+import Image from "next/image";
+import React from "react";
+import { LogoApp, Notifications } from "../../components";
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between max-w-screen-sm m-auto px-2">
-        <LogoApp />
-        <div className="flex items-center gap-[2rem]">
-          <Notifications />
-          <div>
-            <img
-              src="/img/user.jpg"
-              className="w-[3.2rem] h-[3.2rem] object-cover rounded-full border border-4 border-yellow-500"
-            />
-          </div>
+      <LogoApp />
+      <div className="flex items-center gap-[2rem]">
+        <Notifications />
+        <div className="rounded-full">
+          <Image
+            src="/img/user.jpg"
+            width={40}
+            height={50}
+           layout='fixed'
+            alt="logo"
+            className="overflow-hidden"
+          />
         </div>
-      </header>
-  )
-}
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;
